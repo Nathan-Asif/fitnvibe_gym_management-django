@@ -1,0 +1,27 @@
+<!-- templates/admin/index.html -->
+{% extends "admin/index.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Welcome to the Admin Dashboard</h1>
+            <p>Here is your custom admin dashboard content.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <h3>Quick Stats</h3>
+            <ul>
+                <li>Total Users: {{ total_users }}</li>
+                <li>Total Plans: {{ total_plans }}</li>
+                <li>Active Memberships: {{ active_memberships }}</li>
+            </ul>
+        </div>
+        <div class="col-lg-8">
+            <h3>Recent Activities</h3>
+            <!-- You can add a list of recent activities or other widgets here -->
+        </div>
+    </div>
+</div>
+{% endblock %}
