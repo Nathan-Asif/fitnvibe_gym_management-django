@@ -1,5 +1,7 @@
 # FitnVibe Gym Management (Django)
 
+![FitnVibe Logo](misc/fitnvibe_logo_enhanced_nobg_white.png)
+
 **FitnVibe Gym Management** is a comprehensive web application built using Django to help gym owners and managers efficiently manage their fitness centers. This application offers a range of features to streamline gym operations, improve member experience, and enhance overall productivity.
 
 > **Note**: This is a university project developed as part of the **BSSE 1st Semester** coursework.
@@ -17,7 +19,7 @@
 
 - **Backend**: Django, Python
 - **Frontend**: HTML, CSS, JavaScript (can be integrated with a frontend framework like React or Vue)
-- **Database**: PostgreSQL / SQLite
+- **Database**: MySQL
 - **Authentication**: Django's built-in authentication system for secure login and user management
 
 ## Installation
